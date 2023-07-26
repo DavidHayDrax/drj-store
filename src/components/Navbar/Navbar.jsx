@@ -24,7 +24,7 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-        <div className="nav-user">
+        <div className="nav-menu">
           <RiMenuFill />
         </div>
       </div>

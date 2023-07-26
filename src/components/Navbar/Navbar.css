@@ -1,7 +1,7 @@
 .logo {
   max-width: 90px;
   height: auto;
-  padding: 0 5%;
+  padding: 0 2.5%;
 }
 
 .header-content {
@@ -31,7 +31,7 @@
   font-family: Impact;
 }
 
-.nav-user {
+.nav-menu {
   font-size: 2rem;
   padding: 2rem;
   color: white;
