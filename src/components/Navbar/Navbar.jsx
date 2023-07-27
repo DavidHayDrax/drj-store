@@ -4,7 +4,7 @@ import { RiMenuFill } from "react-icons/ri";
 
 const Navbar = () => {
   return (
-    <header>
+    <header className="container-navbar">
       <div className="header-content">
         <img
           src="https://i.imgur.com/4snADKo.jpg"
