@@ -52,3 +52,9 @@
     height: 7%;
   }
 }
+
+@media (max-width: 390px){
+  .header-content{
+    height: 4rem;
+  }
+}
