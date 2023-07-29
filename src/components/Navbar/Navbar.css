@@ -12,7 +12,7 @@
   position: relative;
   width: 100%;
   height: 12%;
-  box-shadow: 0 10px 9px 1px rgba(201, 188, 11, 0.966);
+  box-shadow: 0 10px 9px 1px white;
 }
 
 .nav-links {
@@ -29,7 +29,8 @@
   text-decoration: none;
   color: white;
   font-size: 20px;
-  font-family: Impact;
+  font-family: sans-serif;
+  text-transform: uppercase;
 }
 
 .nav-menu {
