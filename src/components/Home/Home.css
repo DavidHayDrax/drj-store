@@ -47,6 +47,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 2.5% 0;
+  
 }
 
 .first-title {
@@ -86,7 +88,7 @@ section {
 
 .cards-container {
   padding: 0 5%;
-  background-color: white;
+  background-color: black;
 }
 
 .card-box {
@@ -260,6 +262,29 @@ section {
   letter-spacing: 0.045em;
   text-transform: uppercase;
   white-space: nowrap;
+}
+
+.hero-container{
+    padding-top: 5%;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    height: 10rem;
+}
+
+.hero-image{
+    background-color: white;
+    color: black;
+    width: 40%;
+}
+
+.hero-description{
+    background-color: white;
+    color: black;
+    width: 40%;
 }
 
 @keyframes slide {

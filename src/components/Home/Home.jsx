@@ -128,38 +128,13 @@ const Home = () => {
               </a>
             </div>
           </div>
-          <div className="card-item">
-            <div className="box-up">
-              <img
-                className="img"
-                height="250px"
-                src="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
-                alt=""
-              />
-              <div className="img-info">
-                <div className="info-inner">
-                  <span className="p-name">POLERA TEE</span>
-                  <span className="p-company">PURPLE</span>
-                </div>
-                <div className="a-size">
-                  AVAILABLE SIZES: <span className="size">S , M , L , XL</span>
-                </div>
-              </div>
-            </div>
+        </div>
+      </section>
 
-            <div className="box-down">
-              <div className="h-bg">
-                <div className="h-bg-inner"></div>
-              </div>
-
-              <a className="cart" href="#">
-                <span className="price">$120</span>
-                <span className="add-to-cart">
-                  <span className="txt">Add in cart</span>
-                </span>
-              </a>
-            </div>
-          </div>
+      <section className="hero-container">
+        <div className="hero">
+            <div className="hero-image">IMAGEN</div>
+            <div className="hero-description">DESCRIPCION</div>
         </div>
       </section>
     </main>
