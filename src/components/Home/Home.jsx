@@ -96,6 +96,7 @@ const Home = () => {
               </a>
             </div>
           </div>
+
           <div className="card-item">
             <div className="box-up">
               <img
@@ -131,10 +132,31 @@ const Home = () => {
         </div>
       </section>
 
+      <div className="divisor"></div>
+
       <section className="hero-container">
         <div className="hero">
-            <div className="hero-image">IMAGEN</div>
-            <div className="hero-description">DESCRIPCION</div>
+          <div className="hero-image">
+            <img
+              className="hero-img"
+              src="https://i.imgur.com/uETianM.png"
+              alt=""
+            />
+          </div>
+          <div className="hero-image">
+            <img
+              className="hero-img"
+              src="https://i.imgur.com/vuoxWjE.png"
+              alt=""
+            />
+          </div>
+          <div className="hero-image">
+            <img
+              className="hero-img"
+              src="https://i.imgur.com/DI21pEU.png"
+              alt=""
+            />
+          </div>
         </div>
       </section>
     </main>

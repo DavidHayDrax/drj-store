@@ -48,16 +48,12 @@ section {
   align-items: center;
   justify-content: center;
   padding: 2.5% 0;
-  
 }
 
 .first-title {
   width: 100%;
   max-width: 1900px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   margin: 0 5%;
   text-align: center;
 }
@@ -67,7 +63,6 @@ section {
   font-family: sans-serif;
   text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff,
     -1px 1px 0 #fff;
-  align-items: center;
 }
 .first-title h2 span {
   color: #2a9d8c;
@@ -87,8 +82,7 @@ section {
 }
 
 .cards-container {
-  padding: 0 5%;
-  background-color: black;
+  padding: 0 5% 1%;
 }
 
 .card-box {
@@ -98,7 +92,6 @@ section {
 }
 
 .card-box .card-item {
-  background-color: white;
   color: black;
   text-align: center;
 }
@@ -107,6 +100,10 @@ section {
   width: 300px;
   margin: 15px auto;
   opacity: 80%;
+  background-image: url("https://i.imgur.com/WvSnX7K.jpg");
+  background-size: cover;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
 }
 
 .card-item:hover .h-bg {
@@ -116,7 +113,7 @@ section {
 .card-item:hover .price {
   left: 20px;
   transform: translateY(-50%);
-  color: #818181;
+  color: black;
 }
 
 .card-item:hover .add-to-cart {
@@ -144,7 +141,7 @@ section {
   height: 60px;
   position: relative;
   overflow: hidden;
-  background-color: black;
+  background-color: white;
 }
 
 .card-item .box-up {
@@ -153,12 +150,17 @@ section {
   position: relative;
   overflow: hidden;
   text-align: center;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
 }
 
 .card-item .img {
-  width: auto;
+  width: 100%;
+  height: 100%;
   transition: all 800ms cubic-bezier(0, 0, 0.18, 1);
   transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
 }
 
 .h-bg {
@@ -191,14 +193,14 @@ section {
 }
 
 .info-inner .p-name {
-  font-family: "PT Sans", sans-serif;
+  font-family: sans-serif;
   font-size: 18px;
   color: black;
   font-weight: bold;
 }
 
 .info-inner .p-company {
-  font-family: "Lato", sans-serif;
+  font-family: sans-serif;
   font-size: 12px;
   text-transform: uppercase;
   color: black;
@@ -211,7 +213,7 @@ section {
   position: absolute;
   width: 100%;
   bottom: -20px;
-  font-family: "PT Sans", sans-serif;
+  font-family: sans-serif;
   color: rgb(0, 0, 0);
   opacity: 0;
   font-weight: bold;
@@ -228,7 +230,7 @@ section {
   height: 100%;
   top: 0;
   left: 0;
-  font-family: "Lato", sans-serif;
+  font-family: sans-serif;
   font-weight: 700;
 }
 
@@ -242,7 +244,7 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 16px;
-  color: white;
+  color: black;
 }
 
 .cart .add-to-cart {
@@ -264,77 +266,85 @@ section {
   white-space: nowrap;
 }
 
+.divisor {
+  background-image: url("https://i.imgur.com/NolouXI.jpg");
+  background-size: cover;
+  height: 10rem;
+}
+
 .hero-container{
-    padding-top: 5%;
+    background-color: black;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+  height: auto;
 }
 
-.hero{
-    display: flex;
-    justify-content: space-between;
-    padding: 0 5%;
-    height: 10rem;
+.hero-image {
+  color: black;
+  width: 30%;
 }
 
-.hero-image{
-    background-color: white;
-    color: black;
-    width: 40%;
+.hero-image .hero-img{
+    width: 100%;
 }
 
-.hero-description{
-    background-color: white;
-    color: black;
-    width: 40%;
+.hero-description {
+  background-color: white;
+  color: black;
+  width: 40%;
 }
 
 @keyframes slide {
-    0% {
-      margin-left: 0;
-    }
-    45% {
-      margin-left: 0;
-    }
-  
-    50% {
-      margin-left: -100%;
-    }
-    100% {
-      margin-left: -100%;
-    }
+  0% {
+    margin-left: 0;
   }
-  
-  @media (max-width: 780px) {
-    .first-title {
-      font-size: 1.75rem;
-    }
-    .first-title h2 span {
-      font-size: 3rem;
-    }
+  45% {
+    margin-left: 0;
   }
-  
-  @media (max-width: 700px) {
-    .first-title h2 {
-      display: flex;
-      flex-direction: column;
-    }
+
+  50% {
+    margin-left: -100%;
   }
-  
-  @media (max-width: 430px) {
-    .first-title {
-      font-size: 1.4rem;
-    }
-  
-    .first-title h2 span {
-      line-height: 2.5rem;
-    }
-    .card-box {
-      display: flex;
-      flex-direction: column;
-      gap: 5%;
-    }
-    .card-box .card-item {
+  100% {
+    margin-left: -100%;
+  }
+}
+
+@media (max-width: 780px) {
+  .first-title {
+    font-size: 1.75rem;
+  }
+  .first-title h2 span {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .first-title h2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 430px) {
+  .first-title {
+    font-size: 1.4rem;
+  }
+
+  .first-title h2 span {
+    line-height: 2.5rem;
+  }
+  .card-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+  }
+  .card-box .card-item {
     background-color: white;
     color: black;
     text-align: center;
   }
-  }
+}
