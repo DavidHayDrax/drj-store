@@ -1,4 +1,10 @@
 import React from "react";
+import {
+  RiInstagramLine,
+  RiLinkedinBoxLine,
+  RiFacebookBoxLine,
+  RiGithubLine,
+} from "react-icons/ri";
 import "./Home.css";
 
 const Home = () => {
@@ -12,9 +18,19 @@ const Home = () => {
             className="home-slider__item--desktop"
           />
           <img
+            src="https://i.imgur.com/JErqxd4.png"
+            alt="Slide 1"
+            className="home-slider__item--mobile"
+          />
+          <img
             src="https://i.imgur.com/pGhTUPF.png"
             alt="Slide 2"
             className="home-slider__item--desktop"
+          />
+          <img
+            src="https://i.imgur.com/dRfd3bQ.png"
+            alt="Slide 1"
+            className="home-slider__item--mobile"
           />
         </div>
         <button className="prev-btn">Anterior</button>
@@ -143,22 +159,70 @@ const Home = () => {
               alt=""
             />
           </div>
-          <div className="hero-image">
-            <img
-              className="hero-img"
-              src="https://i.imgur.com/vuoxWjE.png"
-              alt=""
-            />
-          </div>
-          <div className="hero-image">
-            <img
-              className="hero-img"
-              src="https://i.imgur.com/DI21pEU.png"
-              alt=""
-            />
+          <div className="hero-description">
+            <h3>
+              Inspired by the vibrant cultures of the concrete jungle, our{" "}
+              <span>streetwear collection</span> is a canvas for
+              self-expression. Dare to stand out, dare to redefine what it means
+              to be <span>stylish.</span>
+            </h3>
           </div>
         </div>
       </section>
+
+      <footer>
+        <div className="footer-container">
+          <div className="footer-box-up">
+            <div className="column">
+              <img src="https://i.imgur.com/4snADKo.jpg" alt="" />
+            </div>
+            <div className="column">
+              Products
+              <ul>
+                <li>T-Shirts</li>
+                <li>Hoodies</li>
+                <li>Pants</li>
+                <li>Jewelry</li>
+                <li>Shoes</li>
+              </ul>
+            </div>
+            <div className="column">
+              Gallery
+              <ul>
+                <li>January</li>
+                <li>March</li>
+                <li>May</li>
+                <li>July</li>
+              </ul>
+            </div>
+            <div className="column">
+              Company
+              <ul>
+                <li>DRJTools</li>
+                <li>DRJFit</li>
+                <li>DRJSupps</li>
+              </ul>
+            </div>
+            <div className="column">
+              Resources
+              <ul>
+                <li>Resources 1</li>
+                <li>Resources 2</li>
+                <li>Resources 3</li>
+              </ul>
+            </div>
+          </div>
+          <div className="footer-box-down">
+            <div className="section-a">David Rodriguez Jave</div>
+            <div className="section-b">
+              <RiInstagramLine />
+              <RiLinkedinBoxLine />
+              <RiFacebookBoxLine />
+              <RiGithubLine />
+            </div>
+          </div>
+        </div>
+      </footer>
     </main>
   );
 };
