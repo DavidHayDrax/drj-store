@@ -201,7 +201,9 @@ section {
 .info-inner .p-name {
   font-family: sans-serif;
   font-size: 18px;
-  color: black;
+  color: white;
+  text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+  -1px 1px 0 #000;
   font-weight: bold;
 }
 
@@ -209,7 +211,9 @@ section {
   font-family: sans-serif;
   font-size: 12px;
   text-transform: uppercase;
-  color: black;
+  color: white;
+  text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+  -1px 1px 0 #000;
   font-weight: bold;
 }
 

@@ -33,8 +33,8 @@ const Home = () => {
             className="home-slider__item--mobile"
           />
         </div>
-        <button className="prev-btn">Anterior</button>
-        <button className="next-btn">Siguiente</button>
+        <button className="prev-btn"></button>
+        <button className="next-btn"></button>
       </section>
       <div className="container-title">
         <div className="first-title">
@@ -52,7 +52,7 @@ const Home = () => {
               <img
                 className="img"
                 height="250px"
-                src="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
+                src="https://i.pinimg.com/564x/db/2c/43/db2c4355a77e72ea7b36ca411cf8cdae.jpg"
                 alt=""
               />
               <div className="img-info">
@@ -85,7 +85,7 @@ const Home = () => {
               <img
                 className="img"
                 height="250px"
-                src="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
+                src="https://i.pinimg.com/564x/22/73/08/2273088eb24f260ea70fc541a6912c36.jpg"
                 alt=""
               />
               <div className="img-info">
@@ -118,7 +118,7 @@ const Home = () => {
               <img
                 className="img"
                 height="250px"
-                src="http://code.slicecrowd.com/labs/4/images/t-shirt.png"
+                src="https://i.pinimg.com/564x/9e/7e/fd/9e7efd16c67d8f83737d00ee3f7c791f.jpg"
                 alt=""
               />
               <div className="img-info">
@@ -215,10 +215,10 @@ const Home = () => {
           <div className="footer-box-down">
             <div className="section-a">David Rodriguez Jave</div>
             <div className="section-b">
-              <RiInstagramLine />
-              <RiLinkedinBoxLine />
+              <a href="https://www.instagram.com/kvdvroja/"><RiInstagramLine/></a>
+              <a href="https://www.linkedin.com/in/kvdvroja/"><RiLinkedinBoxLine /></a>
               <RiFacebookBoxLine />
-              <RiGithubLine />
+              <a href="https://github.com/DavidHayDrax"><RiGithubLine /></a>
             </div>
           </div>
         </div>
